@@ -1,0 +1,46 @@
+# Python environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Streamlit / local runtime
+.streamlit/secrets.toml
+
+# Large outputs and local generated files
+outputs/
+*.parquet
+*.feather
+*.sqlite
+*.db
+*.log
+
+# Large raw/full result files - do not upload these to GitHub
+finalScreen_for_triage.csv
+finalScreen_ml_predictions_with_smiles.csv
+full_scored_results.csv
+full_scored_results.parquet
+top10000_for_app.csv
+
+# Data archives
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.7z
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep model files only if they are small enough for GitHub/Streamlit Cloud.
+# If direct_hit_model.joblib is large, upload it in the app instead of committing it.
+# *.joblib

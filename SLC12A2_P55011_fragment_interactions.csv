@@ -1,0 +1,2 @@
+accession,geneName,protHits,fragId,ligHits,mdfClass,l2fc,l2fcM,ml10adjP,ml10p,expId,nUniq,nPep,perCovg,rankRel
+P55011,SLC12A2,417,C310,1,2,2.96,1.05,3.58284862,4.8642658,BD21_049,6,6,7,407

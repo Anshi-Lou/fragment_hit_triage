@@ -1,0 +1,9 @@
+{
+  "n_train": 3776,
+  "n_test": 1259,
+  "positive_rate_train": 0.006885593220338983,
+  "positive_rate_test": 0.007148530579825258,
+  "auroc": 1.0,
+  "average_precision": 1.0,
+  "f1_at_0_5": 1.0
+}

@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+plotly
+pyarrow
+openpyxl
+
+# Optional chemistry features.
+# Keep this if your model/app uses RDKit fingerprints.
+# If deployment fails because of RDKit, remove this line and use your fallback features.
+rdkit
