@@ -2,4 +2,4 @@
 base = "light"
 
 [server]
-maxUploadSize = 200
+maxUploadSize = 2000
